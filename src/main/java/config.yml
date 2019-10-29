@@ -1,0 +1,12 @@
+#Config pour ServerStyle
+serverBrand: "Station&e47"
+serverName: Krohal
+serverKind: créatif
+permissionDenied: "&cVous n'avez pas la permission nécessaire"
+color:
+  main: WHITE
+  accent: YELLOW
+  third: DARK_PURPLE
+style:
+  chatSeparator: " >> "
+

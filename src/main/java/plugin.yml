@@ -1,0 +1,11 @@
+name: Theme
+version: 0.1
+api-version: 1.14
+author: Tabaribou
+main: fr.station47.theme.Main
+load: STARTUP
+#depend: []
+commands:
+  reloadstyle:
+    description: reload style file
+    usage: /reloadstyle
