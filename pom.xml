@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.station47.plugins</groupId>
-    <artifactId>ServerStyle</artifactId>
+    <artifactId>Theme</artifactId>
     <version>1.0-SNAPSHOT</version>
     <repositories>
         <repository>
@@ -24,6 +24,14 @@
         </dependency>
     </dependencies>
     <build>
+        <resources>
+            <resource>
+                <directory>./src/main/java</directory>
+                <includes>
+                    <include>**/*.yml</include>
+                </includes>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -36,4 +44,11 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Mick00 Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Mick00/Spigot-Theme</url>
+        </repository>
+    </distributionManagement>
 </project>
