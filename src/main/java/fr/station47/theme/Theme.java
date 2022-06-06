@@ -91,4 +91,8 @@ public class Theme {
     public static void sendMessage(CommandSender player, String message){
         player.sendMessage(getTheme().getChatPrefix()+parse(message));
     }
+
+    public static void sendErrorMessage(CommandSender sender, String message){
+        sendMessage(sender,ChatColor.RED+message);
+    }
 }
